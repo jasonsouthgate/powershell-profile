@@ -1,6 +1,10 @@
 # powershell-profile
 
-A devops-focussed Powershell profile. You will get powershell git to see your branch and git status in the prompt, and a whole bunch of aliases and little shortcuts. It's a work in progress. Any pull requests are appreciated.
+A devops-focussed Powershell profile. 
+
+You will get "powershell git" to see your branch and git status in the prompt, and a whole bunch of aliases and little shortcuts, e.g. kubectl command autocompletion. 
+
+It's a work in progress. Any pull requests are appreciated.
 
 ## How to use
 
@@ -13,4 +17,5 @@ Install-Module PSKubectlCompletion
 ```
 
 2. Copy the `Microsoft.Powershell_profile.ps1` file into the directory indicated when you run the `$profile` command.
+
 3. Restart your *normal* Powershell session to get your goodies.
