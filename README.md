@@ -2,7 +2,7 @@
 
 A devops-focussed Powershell profile. You will get powershell git to see your branch and git status in the prompt, and a whole bunch of aliases and little shortcuts. It's a work in progress. Any pull requests are appreciated.
 
-## How to get started
+## How to use
 
 1. Run the following commands from an *administrative* Powershell session to install the three Powershell modules used by the profile. You might need to use `--clobber`.
 
