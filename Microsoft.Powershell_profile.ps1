@@ -57,10 +57,12 @@ function touch {
     New-Item -ItemType File -Name ($args[0])
 }
 
+# Powershell, I want to focus. Give me control of Spotify!
 function focus {
     start 'https://open.spotify.com/user/spotify/playlist/37i9dQZF1DWX9ZIH7jslKG?si=I4EcN0cnQFy0tdyk_meqqA'
 }
 
+# Powershell, I want to relax. Give me control of Spotify!
 function relax {
     start 'https://open.spotify.com/user/calmingmusicacademy/playlist/5ePKan7UdZQYLda19zLx2L?si=gUyqCHaPScqtm8uE9CkY7A'
 }
