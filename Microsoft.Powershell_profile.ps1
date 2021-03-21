@@ -52,6 +52,11 @@ function export {
     [System.Environment]::SetEnvironmentVariable($leftPart, $rightPart, [System.EnvironmentVariableTarget]::User)
 }
 
+# Powershell, give me touch!
+function touch {
+    New-Item -ItemType File -Name ($args[0])
+}
+
 function focus {
     start 'https://open.spotify.com/user/spotify/playlist/37i9dQZF1DWX9ZIH7jslKG?si=I4EcN0cnQFy0tdyk_meqqA'
 }
