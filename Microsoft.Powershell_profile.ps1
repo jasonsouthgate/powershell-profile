@@ -53,11 +53,11 @@ function export {
 }
 
 function focus {
-    start 'https://www.youtube.com/watch_popup?v=4GnVDPD01as&autoplay=1'
+    start 'https://open.spotify.com/user/spotify/playlist/37i9dQZF1DWX9ZIH7jslKG?si=I4EcN0cnQFy0tdyk_meqqA'
 }
 
 function relax {
-    start 'https://www.youtube.com/watch_popup?v=gM1se2ylXUU&autoplay=1'
+    start 'https://open.spotify.com/user/calmingmusicacademy/playlist/5ePKan7UdZQYLda19zLx2L?si=gUyqCHaPScqtm8uE9CkY7A'
 }
 
 Set-Location ~/Workspace
