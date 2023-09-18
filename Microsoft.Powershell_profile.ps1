@@ -33,6 +33,11 @@ function kcgp* { kubectl get pods --all-namespaces}
 
 function kcl { kubectl logs}
 
+# e.g. kc create deploy nginx --image=nginx doy
+function doy { --dry-run=client -o yaml" } 
+# e.g. kc delete pod x now
+function now { --force --grace-period 0" }
+
 # terraform aliases for the main command loop
 New-Alias -Name "tf" -Value "terraform"
 
