@@ -55,10 +55,10 @@ function relax {
 
 # kubectl aliases - syntax 
 #
-#kc = kubectl
+# kc = kubectl
 #    sys=--namespace kube-system
 #
-#sub-commands:
+# sub-commands:
 # g = get, d = describe, rm = delete, a = apply -f, ex = exec -i -t, lo = logs -f
 #
 # resources:
